@@ -1,0 +1,195 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+.form-control {
+	box-shadow: none;		
+	font-weight: normal;
+	font-size: 13px;
+}
+.navbar {
+	background: #fff;
+	border-bottom: 1px solid #dfe3e8;
+	border-radius: 0;
+    height: 100px;
+    padding: 15px;
+}
+.navbar-toggler {
+    height: 100%;
+}
+
+
+
+.nav-item {
+    margin-right: 20px;
+}
+.navbar .navbar-brand {
+	padding-left: 0;
+	padding-right: 50px;
+    font-size: 30px;
+}
+.navbar .navbar-brand b {
+	color: #33cabb;		
+}
+.navbar .form-inline {
+	display: inline-block;
+}
+.navbar .form-inline {
+	display: inline-block;
+}
+.search-box {
+	position: relative;
+    margin-right: 15px;
+}	
+.search-box input {
+	padding-right: 35px;
+	border-color: #dfe3e8;
+	border-radius: 4px !important;
+	box-shadow: none
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .sign-up-btn {
+	min-width: 110px;
+	max-height: 36px;
+}
+.form-control {
+    width: 250px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+#login{
+    margin-right: 15px;
+}
+
+/* Adjustments for smaller screens */
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding-right: 0;
+    }
+
+    .navbar-nav {
+        margin-right: 0;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+
+    .search-box {
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width: 180px;
+    }
+
+    .action-buttons {
+        margin-right: 10px;
+    }
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: #888;
+}
+.navbar-nav form{
+    margin-top: 5px;
+}
+.navbar .btn-primary, .navbar .btn-primary:active {
+	color: #fff;
+	background: #33cabb !important;
+	border: none;
+}
+.bestFree{
+    display: flex; align-items: center; justify-content: center;  gap: 50px; background-color: #652E75;
+    
+}
+.card_container{
+    font-family: Poppins;
+    height: 100vh;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    padding-top: 0;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    gap: 16px;
+    scale: 1.6;
+    z-index: 1;
+  }
+  
+  .card {
+    position: relative;
+    left: 0;
+    width: 140px;
+    height: 160px;
+    background-color: var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.54);
+    overflow:hidden;
+  }
+  
+  .card img {
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+  
+  .card:hover figcaption {
+    font-size: 0.6rem;
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    padding-left: 12px;
+    padding-bottom: 10px;
+  }
+  
+  .card:hover~.card {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(22px);
+  }
+  @media only screen and (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
