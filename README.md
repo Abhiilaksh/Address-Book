@@ -26,4 +26,4 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-This project is about Address Book
+We have hosted this project on github pages. Here is the link for the same: https://abhiilaksh.github.io/Address-Book/
