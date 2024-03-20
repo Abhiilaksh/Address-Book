@@ -16,9 +16,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/Address-Book.git`
 2. Navigate to the project directory: `cd Address-Book`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your web browser and visit `http://localhost:3000` to access the Address Book application.
+
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
