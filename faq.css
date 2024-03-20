@@ -13,7 +13,7 @@ body{
 .title{text-align:center;font-family:Arial;margin-top:50px;margin-bottom:50px}
 .accordion__item{margin-bottom:10px}
 .accordion__item__header
-{background-color:#CBEAFE;padding:15px;cursor:pointer;position:relative;color:#000;font-family:Arial;font-weight:400;font-size:20px}
+{background-color:#fbfecb;padding:15px;cursor:pointer;position:relative;color:#000;font-family:Arial;font-weight:400;font-size:20px}
 .accordion__item__header::before{height:15px;width:15px;content:"";position:absolute;right:15px;top:15px;transition:.5s all;transform:rotate(45deg);border-right:2px solid #000;border-bottom:2px solid #000;}
 .accordion__item__header.active{background-color:beige;color:#151515;transition:.5s}
 .accordion__item__header.active::before{transform:rotate(-135deg);top:23px;border-right:2px solid #151515;border-bottom:2px solid #151515}
