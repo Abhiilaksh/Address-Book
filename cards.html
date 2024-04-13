@@ -18,12 +18,23 @@
 "main_logo.jpeg" 
         type = "image/x-icon"> 
 <style>
+  body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+}
     .navbar {
-	background: #e5f6f6;
-	padding-left: 16px;
-	padding-right: 16px;
-	border-bottom: 1px solid #dfe3e8;
-	border-radius: 0;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #dfe3e8;
+    border-radius: 0;
+    z-index: 1000;
+    height: auto; /* Set height to auto */
+}
+.navbar-nav {
+    margin-left: 5%;
+    gap: 15px; /* Adjusted gap value */
 }
 .nav-link img {
 	border-radius: 50%;
@@ -50,6 +61,7 @@
 }
 .search-box {
 	position: relative;
+    margin-left: 10px;
 }	
 .search-box input {
 	padding-right: 35px;
@@ -195,6 +207,7 @@
 		width: 100%;
 	}
 }
+
 .footer-clean {
   padding:50px 0;
   background-color:#fff;
@@ -283,35 +296,33 @@
 
 </style>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
-    <a href="#" class="navbar-brand" style="font-size: 30px;">Next<b>Book</b></a>  		
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-   
-    
-    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
-      <div class="navbar-nav" style="margin-left: 5%; gap: 60px; " >
-          <a href="homePage.html" class="nav-item nav-link" style="font-size: 20px;">Home</a>
-          <a href="#" class="nav-item nav-link" style="font-size: 20px;">About</a>
-          <a href="cards.html " class="nav-item nav-link"style="font-size: 20px;font-weight: 800; color: black;">Cards</a>
-          <a href="addressForm.html" class="nav-item nav-link" style="font-size: 20px; ">Address Book</a>				
-        
+  <a href="#" class="navbar-brand" style="font-size: 30px;"  >Next<b>Book</b></a>  		
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+      <div class="navbar-nav" style="padding-left: 40px; ">
+          <a href="homePage.html" class="nav-item nav-link" style="font-size: larger;">Home</a>
+          <a href="#" class="nav-item nav-link" style="font-size: larger;">About</a>			
           
-          <a href="faq.html" class="nav-item nav-link"style="font-size: 20px;">FAQs</a>
+          <a href="#" class="nav-item nav-link" style="font-size: larger;">Contact</a>
+          <a href="cards.html" class="nav-item nav-link"style="font-size: larger;"><b>Cards</b></a>
+          <a href="addressForm.html" class="nav-item nav-link"style="font-size: larger;">Address Book</a>
+          <a href="faq.html" class="nav-item nav-link"style="font-size: larger;">FAQs</a>
       </div>
       <form class="navbar-form form-inline">
-          <div class="input-group search-box" style="margin-left: 150px">								
+          <div class="input-group search-box">								
               <input type="text" id="search" class="form-control" placeholder="Search here...">
               <div class="input-group-append">
-                  <span class="input-group-text" style="margin-left: 5px;">
+                  <span class="input-group-text">
                       <i class="material-icons">&#xE8B6;</i>
                   </span>
               </div>
           </div>
       </form>
-     
+      
   </div>
-    <i class="fa-solid fa-user" style="font-size: 30px;"></i>
 </nav>
 <div class="cardswhole" style=" display: flex; align-items: center; justify-content: center; background-color: #faedd9;width: auto;">
     <div class="text-block" style="height: 600px; width: 600px; padding-top: 250px; color: #00265d; margin-right: 50px;">
