@@ -1,3 +1,5 @@
+#Note
+This is my first project which regrettably lacks optimization for smaller devices, and my codebase requires some refinement.
 # Address-Book
 
 This project is a front-end implementation of an Address Book.
@@ -24,4 +26,4 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-We have hosted this project on github pages. Here is the link for the same: https://abhiilaksh.github.io/Address-Book/
+We have hosted this project on netlify. Here is the link for the same: https://addressbooknext.netlify.app/
